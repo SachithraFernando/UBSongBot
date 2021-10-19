@@ -8,12 +8,12 @@ from JESongBot import Jebot as app
 from JESongBot import LOGGER
 
 pm_start_text = """
-Hey [{}](tg://user?id={}), I'm Song Downloader Bot 🎵
+Hey [{}](tg://user?id={}), <b> I'm Song Downloader Bot 🎵</b>
 
-😉 Just send me the song name you want to download.😋
+ <b>Just send me the song name you want to download.</b>
       eg:```/song Faded```
       
-A bot by @Uvindu_Bro 🇱🇰
+<b> Subscribe My Update Channel @CCbotz 🇱🇰 </b>
 """
 
 @app.on_message(filters.command("start"))
@@ -26,10 +26,10 @@ async def start(client, message):
             [
                 [
                      InlineKeyboardButton(
-                        text="Channel 🔊", url="https://t.me/UvinduBr"
+                        text="Channel 🔊", url="https://t.me/CCbotz"
                     ),
                     InlineKeyboardButton(
-                        text="Dev 🔥", url="https://t.me/Uvindu_Bro"
+                        text="Dev 🔥", url="https://t.me/Fury_SL"
                     )
                 ]
             ]
